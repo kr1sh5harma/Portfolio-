@@ -10,6 +10,7 @@ import { FaEnvelope, FaGithub, FaLinkedin, FaPhone } from "react-icons/fa";
 import { Card, CardContent } from "@/components/ui/card";
 import Image1 from '../public/image.png'
 import Image2 from '../public/Taskify.png'
+import hackster from '../public/HACKSTER.png'
 export default function Home() {
   return (
     <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white
@@ -135,11 +136,32 @@ export default function Home() {
             <div className="grid grid-cols-1  gap-3">
               <Card className="bg-gray-50 dark:bg-zinc-900 border-gray-200 dark:border-zinc-800 transition-transform duration-300 hover:scale-105 cursor-pointer">
                 <CardContent className="p-4">
+                  <Image src={hackster} alt="project-1-screenshot" className="rounded-lg mb-4" />
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h3 className="font-medium">HackSter</h3>
+                      <p className="text-sm text-gray-600">Project 1</p>
+                      <p className="text-gray-400 dark:text-gray-600">Browse, Host, and Participate in Hackathons</p>
+                    </div>
+                    <Button variant="ghost" size="icon" asChild>
+                      <Link
+                        href="https://hackster-mp4o.onrender.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        ⟶
+                      </Link>
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card className="bg-gray-50 dark:bg-zinc-900 border-gray-200 dark:border-zinc-800 transition-transform duration-300 hover:scale-105 cursor-pointer">
+                <CardContent className="p-4">
                   <Image src={Image1} alt="project-1-screenshot" className="rounded-lg mb-4" />
                   <div className="flex items-center justify-between">
                     <div>
                       <h3 className="font-medium">Job Portal</h3>
-                      <p className="text-sm text-gray-600">Project 1</p>
+                      <p className="text-sm text-gray-600">Project 2</p>
                       <p className="text-gray-400 dark:text-gray-600">Apply, Post and Search for Jobs</p>
                     </div>
                     <Button variant="ghost" size="icon" asChild>
@@ -161,7 +183,7 @@ export default function Home() {
                   <div className="flex items-center justify-between">
                     <div>
                       <h3 className="font-medium">Taskist-A task listing app</h3>
-                      <p className="text-sm text-gray-600">Project 2</p>
+                      <p className="text-sm text-gray-600">Project 3</p>
                       <p className="text-gray-400 dark:text-gray-600">List and Track your tasks</p>
                     </div>
                     <Button variant="ghost" size="icon" asChild>
@@ -183,7 +205,7 @@ export default function Home() {
                   <div className="flex items-center justify-between">
                     <div>
                       <h3 className="font-medium">Course Selling Website Backend</h3>
-                      <p className="text-sm text-gray-600">Project 3</p>
+                      <p className="text-sm text-gray-600">Project 4</p>
                       <p className="text-gray-400 dark:text-gray-600">Buy and Search for courses</p>
                     </div>
                     <Button variant="ghost" size="icon" asChild>
