@@ -82,7 +82,7 @@ export default function Home() {
                 className="rounded-full bg-gradient-to-r from-rose-400 to-indigo-600 text-white transition-transform hover:scale-105"
                 asChild
               >
-                <a href="/OverLeaf.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/newRes.pdf" target="_blank" rel="noopener noreferrer">
                   Resume
                 </a>
               </Button>
