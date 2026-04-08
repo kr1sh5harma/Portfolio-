@@ -4,6 +4,8 @@ import Image from "next/image";
 import profile from "../public/profile.jpeg";
 import avatar from "../public/avatar.png"
 import hackster from "../public/HACKSTER.png";
+import gitget from "../public/gitget.png";
+import jobportal from "../public/jobportal.png";
 import Image1 from "../public/image.png";
 import Image2 from "../public/Taskify.png";
 import Navbar from "@/components/navbar";
@@ -70,26 +72,20 @@ export default function Home() {
       href: "https://hackster-mp4o.onrender.com/",
     },
     {
+      title: "HackSter",
+      description: "GitGet is a modern GitHub profile insight tool that transforms raw GitHub API data into beautiful, actionable metrics and developer profiles.",
+      image: gitget,
+      tags: [ "Next.js", "Express", "Github", "Tailwind", "Framer Motion"],
+      href: "gitget-beta.vercel.app",
+    },
+    {
       title: "Job Portal",
       description: "A comprehensive job portal where users can apply, post, and search for jobs with advanced filtering.",
-      image: Image1,
+      image: jobportal,
       tags: ["React", "Express.js", "MongoDB", "REST API"],
       href: "https://job-portal-frontend-kappa-two.vercel.app/",
     },
-    {
-      title: "Taskist",
-      description: "A clean and intuitive task management app to list, organize, and track daily tasks efficiently.",
-      image: Image2,
-      tags: ["HTML", "CSS", "Javascript"],
-      href: "https://github.com/kr1sh5harma/Taskist",
-    },
-    {
-      title: "Course Selling Backend",
-      description: "A robust backend API for a course-selling platform with authentication, payments, and course management.",
-      image: undefined,
-      tags: ["Node.js", "Express.js", "MongoDB", "JWT"],
-      href: "https://github.com/kr1sh5harma/Course-Selling-App",
-    },
+    
   ];
 
   const techStack = {
