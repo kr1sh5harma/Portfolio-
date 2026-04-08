@@ -212,7 +212,7 @@ export default function Home() {
               View My Work ↓
             </button>
             <a
-              href="/Overleaf2.pdf"
+              href="/resumeapril.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 rounded-full text-sm font-medium glass-card text-zinc-300 hover:text-white hover:border-violet-500/30 transition-all duration-300 hover:scale-105"
